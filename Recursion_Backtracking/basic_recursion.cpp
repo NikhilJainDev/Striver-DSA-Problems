@@ -9,6 +9,7 @@ void printNum(int n)
         printNum(n - 1);
     }
 }
+
 // Factorial of N using recursion 
 int Fact(int n){
     if(n == 0){
@@ -17,6 +18,7 @@ int Fact(int n){
     else{
         return n * Fact(n-1);
     }
+    cout<<endl;
 }
 
 // Classical Recursion Problem 1) Fibonacci Series 
